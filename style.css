@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #E5E5E5;
+}
+.home {
+	width: 580px;
+	height: 870px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	box-shadow: 5px 5px 20px black, -5px -5px 20px gray;
+}
+.home .home1 {
+	background: #C04343;
+	height: 320px;
+
+}
+.home .home1 img{
+	height: 320px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+}
+.home .home1 h1{
+	padding: 40px 0px 0px 40px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	z-index: 1000 !important;
+}
+span{
+	color: black;
+}
+.home .home1 p {
+	padding: 5px 45% 0px 40px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 10px;
+}
+.btn1{
+	margin: 0px 0px 0px 40px;
+
+}
+ .btn1, .btn2, .btn3{
+	width: 130px;
+	height:40px;
+	margin-top: 25px;
+	font-weight: bold;
+	color: white;
+	background: #502121;
+	border: none;
+}
+.home .home2{
+	background: white;
+	height: 550px;
+}
+.home .home2 h4{
+	padding: 40px 0px 0px 40px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold !important;
+}
+.home2 input{
+		margin: 0px 0px 0px 40px;
+		width: 500px;
+		height: 40px;
+	font-family: 'Poppins', sans-serif;
+
+}
+.home2 label{
+		margin: 0px 0px 0px 40px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold !important;
+
+}
